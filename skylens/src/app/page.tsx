@@ -1,12 +1,21 @@
 import Footer from "./components/Layout/Footer";
-import { Header } from "./components/Layout/Header";
-import Routes from "./components/utils/Routes";
+import Header from "./components/Layout/Header";
 
-export function Home() {
+// export function Home() {
+//   return (
+//     <>
+//       {/* <Header/>
+//       <Footer/> */}
+//       <h1>Saleeeem</h1>
+//     </>
+//   )
+// }
+
+export default function Page() {
   return (
     <>
-      <Header/>
-      <Routes/>
+      <Header />
+      
       <Footer/>
     </>
   )

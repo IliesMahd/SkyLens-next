@@ -1,0 +1,31 @@
+// default variables and styles
+$primary-color: #364FC7;
+$white: #fff;
+$black: #000;
+$gray: #ccc;
+
+// mobile first
+$header-font-size: 2.25rem;
+$header-font-weight: 600;
+$title-font-size: 1.5rem;
+$title-line-height: 3.125rem;
+$subtitle-font-size: 1rem;
+
+// desktop 
+
+*, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+    width: 100vw;
+
+}

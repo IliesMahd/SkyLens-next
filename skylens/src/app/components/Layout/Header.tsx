@@ -4,6 +4,7 @@ import { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import Link from "next/link";
 import "../../styles/components/Header.scss"; 
+import Icon from "../utils/Icon";
 
 interface Item {
   name: string;
@@ -44,7 +45,9 @@ export default function Header() {
   }
   return (
     <header className={menuOpen ? "menu-open" : "mobile-version"}>
-      <img src="/assets/logo.png" alt="SkyLens logo" />
+      {/* <img src="/assets/logo4.png" alt="SkyLens logo" /> */}
+      <Icon name="smoke" width="50" height="50" />
+
       <IoIosMenu className="menu-burger" onClick={handleClick} />
       <ul className={menuOpen ? "menu-items" : "menu-items mobile-version"}>
         {
